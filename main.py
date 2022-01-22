@@ -68,9 +68,6 @@ def create_video(values):
         print("Error: Number of tweet images and audio files are not the same")
         return None
 
-    tweet_img_paths = ['E:\\python projects\\ladyfawk\\res\\tweet_image_1484609415982448643.png', 'E:\\python projects\\ladyfawk\\res\\tweet_image_1484653157502402560.png', 'E:\\python projects\\ladyfawk\\res\\tweet_image_1484653703609167877.png']
-    tweet_audio_paths = ['E:\\python projects\\ladyfawk\\res\\tweet_audio_1484609415982448643.mp3', 'E:\\python projects\\ladyfawk\\res\\tweet_audio_1484653157502402560.mp3', 'E:\\python projects\\ladyfawk\\res\\tweet_audio_1484653703609167877.mp3']
-
     tweet_image_clips = []
     tweet_audio_clips = []
 
